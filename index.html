@@ -155,7 +155,10 @@
         </div>
     </section>
     <section class="image-text-container image-text-container--image-full">
-        <img src="./dist/images/fundo_rei_leao.png" alt="O Rei Leão">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./dist/images/fundo_rei_leao_celular.png" alt="O Rei Leão"/>
+            <img src="./dist/images/fundo_rei_leao.png" alt="O Rei Leão">
+        </picture>
         <div class="image-text-container__text__container image-text-container--image-full__text__container">
             <h2 class="title">Baixe filmes e séries</h2>
             <p class="text--big">Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com você, até mesmo sem internet.</p>
